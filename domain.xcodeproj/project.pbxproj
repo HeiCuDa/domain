@@ -78,6 +78,58 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D7A907991E2E04A90023CC98 /* Query */ = {
+			isa = PBXGroup;
+			children = (
+				D7A9079F1E2E04E40023CC98 /* View */,
+				D7A9079E1E2E04DC0023CC98 /* Model */,
+				D7A9079D1E2E04D70023CC98 /* Controller */,
+			);
+			name = Query;
+			sourceTree = "<group>";
+		};
+		D7A9079A1E2E04AF0023CC98 /* News */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = News;
+			sourceTree = "<group>";
+		};
+		D7A9079B1E2E04B50023CC98 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Tools;
+			sourceTree = "<group>";
+		};
+		D7A9079C1E2E04BE0023CC98 /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Mine;
+			sourceTree = "<group>";
+		};
+		D7A9079D1E2E04D70023CC98 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		D7A9079E1E2E04DC0023CC98 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		D7A9079F1E2E04E40023CC98 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
 		D7CB08C91E2DF7FD00E8FDFE = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +153,10 @@
 		D7CB08D41E2DF7FD00E8FDFE /* domain */ = {
 			isa = PBXGroup;
 			children = (
+				D7A9079C1E2E04BE0023CC98 /* Mine */,
+				D7A9079B1E2E04B50023CC98 /* Tools */,
+				D7A9079A1E2E04AF0023CC98 /* News */,
+				D7A907991E2E04A90023CC98 /* Query */,
 				D7CB08D81E2DF7FD00E8FDFE /* AppDelegate.h */,
 				D7CB08D91E2DF7FD00E8FDFE /* AppDelegate.m */,
 				D7CB08DB1E2DF7FD00E8FDFE /* ViewController.h */,
@@ -505,6 +561,7 @@
 				D7CB09011E2DF7FD00E8FDFE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D7CB09021E2DF7FD00E8FDFE /* Build configuration list for PBXNativeTarget "domainTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +570,7 @@
 				D7CB09041E2DF7FD00E8FDFE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D7CB09051E2DF7FD00E8FDFE /* Build configuration list for PBXNativeTarget "domainUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +579,7 @@
 				D7CB09071E2DF7FD00E8FDFE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
